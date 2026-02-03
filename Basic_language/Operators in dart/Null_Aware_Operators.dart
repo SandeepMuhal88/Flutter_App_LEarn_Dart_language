@@ -11,7 +11,7 @@ void main(){
     city ??= "Mumbai";
     print(city);
     String? email = "abc@gmail.com";
-    print(email!);
+    print(email);
     email ??= "def@gmail.com";
     print(email);
 }

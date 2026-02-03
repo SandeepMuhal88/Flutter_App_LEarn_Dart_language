@@ -9,5 +9,5 @@ void main() {
   print("Assigned username: $username");
 
   // Force non-null (use carefully)
-  print("Uppercase: ${username!.toUpperCase()}");
+  print("Uppercase: ${username.toUpperCase()}");
 }

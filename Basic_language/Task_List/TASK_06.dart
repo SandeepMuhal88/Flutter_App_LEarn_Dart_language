@@ -11,7 +11,7 @@ void main(){
     int? c = int.tryParse(a);
     double? d = double.tryParse(b);
     double total = (c ?? 0) + (d ?? 0);
-    print("Total: $tot      al");
+    print("Total: $total");
     if(total>100){
         print("Big total");
     }
