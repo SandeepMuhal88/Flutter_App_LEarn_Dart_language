@@ -20,6 +20,6 @@ void main() {
   bool isAdult = true;
   bool hasID = false;
   print("Can enter club: ${isAdult && hasID}");
-  print("Eligible for discount: ${isAdult || hasID}");
+  // print("Eligible for discount: ${isAdult || hasID}");
   print("Is not adult: ${!isAdult}");
 }
